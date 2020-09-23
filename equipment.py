@@ -166,6 +166,11 @@ class EquipmentDatabase():
         c = conn.cursor()
         return c.execute(f"SELECT count(*) from {table_name}""").fetchone()[0] > 0
 
+    def get_armor_count(self):
+        conn = sqlite3.connect(self.db_path)
+        c = conn.cursor()
+        return c.execute("SELECT count(*) from armor").fetchone()[0]
+
     def create_database(self):
         try:
             conn = sqlite3.connect(self.db_path)
