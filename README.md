@@ -1,1 +1,1 @@
-![Flake8 Linter](https://github.com/SnarkAttack/mhgu_equipment_designer/workflows/Flake8%20Linter/badge.svg)
+![lint](https://github.com/SnarkAttack/mhgu_equipment_designer/workflows/Python%20package/badge.svg) ![tests](https://travis-ci.com/SnarkAttack/mhgu_equipment_designer.svg?branch=master) [![codecov](https://codecov.io/gh/SnarkAttack/mhgu_equipment_designer/branch/master/graph/badge.svg)](https://codecov.io/gh/SnarkAttack/mhgu_equipment_designer)
