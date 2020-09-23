@@ -1,4 +1,4 @@
-from equipment_designer.equipment import EquipmentDatabase
+from ..equipment import EquipmentDatabase
 
 TEST_DB_NAME = "./databases/equipment_test.db"
 
